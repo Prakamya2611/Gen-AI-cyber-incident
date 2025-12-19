@@ -1,0 +1,32 @@
+{
+  "firewall_logs": [
+    {
+      "timestamp": "2025-09-15T10:15:30Z",
+      "src_ip": "45.83.21.9",
+      "dest_ip": "10.0.0.12",
+      "action": "BLOCK",
+      "port": 443
+    }
+  ],
+  "auth_logs": [
+    {
+      "timestamp": "2025-09-15T10:17:02Z",
+      "user": "employee01",
+      "status": "FAILED",
+      "src_ip": "45.83.21.9"
+    },
+    {
+      "timestamp": "2025-09-15T10:18:10Z",
+      "user": "employee01",
+      "status": "FAILED",
+      "src_ip": "45.83.21.9"
+    }
+  ],
+  "phishing_alerts": [
+    {
+      "timestamp": "2025-09-15T10:10:00Z",
+      "email": "employee01@company.com",
+      "malicious_url": "http://secure-login-alert[.]com"
+    }
+  ]
+}
